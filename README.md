@@ -32,7 +32,7 @@ You are free to use, modify, and share with proper credit.
 Hi! I'm Qusai – a passionate developer, tech enthusiast, and learner.  
 Connect with me:
 - 🌐 [Portfolio (coming soon)]()
-- 💼 [LinkedIn](https://www.linkedin.com/)
-- 🐙 [GitHub](https://github.com/qusai-Kagalwala)
+- 💼 [LinkedIn](https://www.linkedin.com/in/qusai-kagalwala-584a40240/)
+- 🐙 [GitHub](https://github.com/qusai-Kagal)
 
 Let’s build the future, one line of code at a time! 💻
