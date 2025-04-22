@@ -1,0 +1,729 @@
+/* Style Sheet 1 */
+
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Young+Serif&display=swap");
+
+/* Define custom colors */
+:root {
+    --text: #050a06;
+    --background: #f0faf1;
+    --primary: #44d550;
+    --secondary: #8ef096;
+    --accent: #42f551;
+}
+
+body {
+    font-family: "Golos Text", sans-serif;
+    font-weight: 400;
+    color: var(--text);
+    background-color: var(--background);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Young Serif", serif;
+    font-weight: 700;
+    color: var(--text);
+}
+
+html {
+    font-size: 100%;
+    /* 16px */
+}
+
+h1 {
+    font-size: 4.21rem;
+    /* 67.36px */
+}
+
+h2 {
+    font-size: 3.158rem;
+    /* 50.56px */
+}
+
+h3 {
+    font-size: 2.369rem;
+    /* 37.92px */
+}
+
+h4 {
+    font-size: 1.777rem;
+    /* 28.48px */
+}
+
+h5 {
+    font-size: 1.333rem;
+    /* 21.28px */
+}
+
+small {
+    font-size: 0.75rem;
+    /* 12px */
+}
+
+.color-effect {
+    background: linear-gradient(120deg, var(--primary), var(--accent));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.font-effect {
+    font-style: italic;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--text);
+    color: transparent;
+}
+
+/* Enlarge class */
+.enlarge {
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Enlarge effect on hover */
+.enlarge:hover {
+    transform: scale(1.1);
+}
+
+/* Button Styles */
+.button-accent {
+    background-color: var(--accent);
+    color: var(--text);
+    border: 2px solid var(--text);
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+        box-shadow 0.2s ease-in-out;
+    transform-origin: center;
+}
+
+.button-accent:hover {
+    background-color: var(--primary);
+    color: var(--background);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.button-accent:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Scroll Button Styling */
+.scroll-button {
+    position: absolute;
+    bottom: 7%;
+    left: 1%;
+    transform: rotate(-90deg);
+    transform-origin: left;
+    width: 10rem;
+    height: 2rem;
+    background-color: var(--primary);
+    color: #fff;
+    border: none;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.scroll-button:hover {
+    background-color: var(--accent);
+}
+
+/* Responsive Styling for Smaller Screens */
+@media (max-width: 900px) {
+    .scroll-button {
+        display: none;
+    }
+}
+
+.accordion {
+    width: 100%;
+}
+
+.accordion-button {
+    color: var(--text);
+    background-color: var(--background);
+    font-size: 1.3333rem;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out,
+        border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out,
+        border-radius 0.3s ease;
+    border: none;
+    /* Remove all borders initially */
+    border-bottom: 2px solid var(--accent);
+    /* Add bottom border */
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--text);
+    background-color: #c9ffcd;
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--accent);
+    border-bottom-color: var(--accent);
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-bottom-color: var(--accent);
+}
+
+.accordion-body {
+    color: var(--text);
+    font-size: 1rem;
+}
+
+/* style sheet 2 */
+
+/* Header Styles */
+header {
+    position: relative;
+    width: 100%;
+}
+
+/* Navbar Styles */
+.navbar-glass {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transition: background 0.5s, backdrop-filter 0.5s,
+        -webkit-backdrop-filter 0.5s, color 0.5s;
+}
+
+.navbar-glass a,
+.navbar-glass.scrolled a {
+    font-weight: 500;
+    font-size: 1.2rem;
+    transform-origin: center;
+    color: var(--background);
+    transition: color 0.5s;
+}
+
+.navbar-glass.scrolled {
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+
+    a {
+        color: var(--text);
+    }
+}
+
+.navbar-glass a:hover,
+.navbar-glass a:focus,
+.navbar-glass.scrolled a:hover,
+.navbar-glass.scrolled a:focus {
+    color: var(--primary);
+}
+
+.navCollapsed a {
+    color: var(--text) !important;
+    transform-origin: left !important;
+}
+
+.navCollapsed a:hover,
+.navCollapsed a:focus {
+    color: var(--primary) !important;
+}
+
+/* Logo Styles */
+.navbar-brand .logo {
+    height: 40px;
+    width: auto;
+}
+
+@media (max-width: 767px) {
+    .navbar-brand .logo {
+        height: 30px;
+    }
+}
+
+/* Button Padding for Smaller Screens */
+@media (max-width: 650px) {
+    .button-accent {
+        padding: 5px 20px;
+    }
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: auto;
+    box-shadow: none;
+}
+
+.footerLogo {
+    width: 15%;
+}
+
+/* Style sheet 3 */
+
+/* Background Image Styles */
+.background-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+
+.background-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+}
+
+@media (max-width: 650px) {
+    .background-image {
+        transform: scale(1.5);
+    }
+}
+
+/* Tagline Styles */
+#tagline {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 6rem;
+    color: var(--text);
+    width: 100%;
+}
+
+@media (max-width: 774px) {
+    #tagline {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 640px) {
+    #tagline {
+        font-size: 4rem;
+    }
+}
+
+/* Comment Styles */
+#comment {
+    position: absolute;
+    left: 10%;
+    width: 30%;
+    color: var(--background);
+    font-size: 1.1rem;
+}
+
+@media (max-width: 1100px) {
+    #comment {
+        width: 50%;
+    }
+}
+
+@media (max-width: 650px) {
+    #comment {
+        width: 80%;
+    }
+}
+
+/* Learn More Button Styles */
+#learnMore {
+    position: absolute;
+    left: 10%;
+    width: max-content;
+    font-size: 1rem;
+    border: 2px solid var(--background);
+    color: var(--background);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+#learnMore:hover {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    color: var(--background);
+}
+
+#learnMore:active {
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.4);
+}
+
+/* Style sheet 4 */
+
+#whyEkhandeImpex {
+    text-align: center;
+    padding-top: 5%;
+}
+
+/* Main Section Cards Container */
+.section-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 3%;
+    align-items: stretch;
+    flex-wrap: wrap;
+    /* Ensures wrapping on smaller screens */
+}
+
+/* Individual Section Card Styling */
+.section-card {
+    background-color: #e7f8e9;
+    border-radius: 15px;
+    text-align: center;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    box-sizing: border-box;
+    /* Ensures padding is included in width */
+}
+
+/* SVG Icon Styling */
+.cardSVG {
+    fill: var(--accent);
+    width: 40%;
+    height: 40%;
+    margin: 0 auto;
+    /* Centers the SVG */
+    padding-top: 5%;
+}
+
+/* Answer Text Styling */
+.section-card .answer {
+    text-align: left;
+    padding-top: 4%;
+    padding-bottom: 15%;
+    position: relative;
+    width: 80%;
+    left: 10%;
+}
+
+@media (min-width: 901px) {
+    .cardQuestions {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* Centers vertically */
+        align-items: center;
+        /* Centers horizontally */
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 100vh;
+        /* Ensure it takes the full height of the viewport */
+    }
+}
+
+/* Responsive Styling for Smaller Screens */
+@media (max-width: 900px) {
+    .section-cards {
+        flex-direction: column;
+        align-items: center;
+        /* Center the cards in column layout */
+    }
+
+    .section-card {
+        width: 80%;
+        /* Adjust width for smaller screens */
+        margin-bottom: 2rem;
+        /* Space between cards */
+    }
+}
+
+/* Style sheet 4 */
+
+#whyEkhandeImpex {
+    text-align: center;
+    padding-top: 5%;
+}
+
+/* Main Section Cards Container */
+.section-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 3%;
+    align-items: stretch;
+    flex-wrap: wrap; /* Ensures wrapping on smaller screens */
+}
+
+/* Individual Section Card Styling */
+.section-card {
+    background-color: #e7f8e9;
+    border-radius: 15px;
+    text-align: center;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+/* SVG Icon Styling */
+.cardSVG {
+    fill: var(--accent);
+    width: 40%;
+    height: 40%;
+    margin: 0 auto; /* Centers the SVG */
+    padding-top: 5%;
+}
+
+/* Answer Text Styling */
+.section-card .answer {
+    text-align: left;
+    padding-top: 4%;
+    padding-bottom: 15%;
+    position: relative;
+    width: 80%;
+    left: 10%;
+}
+
+@media (min-width: 901px) {
+    .cardQuestions {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Centers vertically */
+        align-items: center; /* Centers horizontally */
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 100vh; /* Ensure it takes the full height of the viewport */
+    }
+}
+
+/* Responsive Styling for Smaller Screens */
+@media (max-width: 900px) {
+    .section-cards {
+        flex-direction: column;
+        align-items: center; /* Center the cards in column layout */
+    }
+
+    .section-card {
+        width: 80%; /* Adjust width for smaller screens */
+        margin-bottom: 2rem; /* Space between cards */
+    }
+}
+
+/* Style sheet 5 */
+
+.solutions {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.solutionsCards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    max-width: 90%;
+    box-sizing: border-box;
+}
+
+.solutionCard {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.solutionImg {
+    width: 100%;
+    height: auto;
+}
+
+.solBtn {
+    width: max-content;
+    margin-top: 1rem;
+    /* Add spacing if needed */
+}
+
+@media (max-width: 900px) {
+    .solutions {
+        flex-direction: column;
+        align-items: stretch;
+        height: auto;
+    }
+
+    .solutionsCards {
+        flex-direction: column;
+        gap: 2rem;
+        /* Ensure enough gap between stacked cards */
+    }
+
+    .solutionCard {
+        width: 100%;
+        /* Ensure cards have enough height on smaller screens */
+    }
+
+    .textCard {
+        order: 1;
+    }
+
+    .imageCard {
+        order: 2;
+    }
+}
+
+@media (max-width: 675px) {
+    .solutionsCards {
+        gap: 1rem;
+        /* Adjust gap for very small screens */
+    }
+
+    .solutionCard {
+        /* Ensure proper padding and spacing */
+        padding: 1rem;
+    }
+
+    .textCard,
+    .imageCard {
+        /* Ensure cards are not too small on very narrow screens */
+        flex: none;
+    }
+}
+
+/* Style sheet 6 */
+
+.faq {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faqContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.faqTxt {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    width: 40%;
+}
+
+.faqQuestions {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    width: max-content;
+}
+
+@media (max-width: 900px) {
+    .faqContainer {
+        flex-direction: column;
+        /* align-items: stretch; */
+        height: auto;
+    }
+
+    .faqTxt,
+    .faqQuestions {
+        width: 90%;
+    }
+}
+
+
+
+/* Card Hover Effect in Why Ekhande Section */
+.section-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+/* Scroll Effect on Overall Website */
+body {
+    scroll-behavior: smooth;
+}
+
+/* Accordion Styles */
+.accordion-button {
+    background-color: #f1f1f1;
+    cursor: pointer;
+    padding: 1rem;
+    text-align: left;
+    border: none;
+    outline: none;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-button:hover {
+    background-color: #ddd;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+    padding: 0 1rem;
+    background-color: #f9f9f9;
+}
+
+.accordion-content.open {
+    max-height: 200px;
+    /* Adjust as necessary */
+    padding: 1rem;
+    transition: max-height 0.3s ease-in, padding 0.3s ease-in;
+}
+
+/* FAQ Animation */
+.faq-item {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.faq-item.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* (CSS for the Image Animation) */
+
+.animation {
+    scale: .8; opacity: 0;
+   animation: fade-in linear forwards;
+   animation-timeline: view(); 
+   animation-range: 250px 500px;
+} 
+
+@keyframes fade-in {
+    to { scale: 1; opacity: 1;}
+}
