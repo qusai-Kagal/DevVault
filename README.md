@@ -16,7 +16,7 @@ Welcome to **DevVault** – my personal coding vault where I store, organize, an
 - 🧠 [Competitive Coding](competitive-coding/) – Solutions and practice from LeetCode, Codeforces, etc.
 - 🛠️ [Scripts](scripts/) – Useful automation, utilities, and standalone code snippets.
 - 🎮 [Game Development](game-development/) – Simple games and experimental gameplay projects.
-- 🎮 [VsCode Extensions](vs-code-extension/) – Developer tools and custom VS Code extensions created from scratch..
+- 🎮 [VsCode Extensions](vs-code-extensions/) – Developer tools and custom VS Code extensions created from scratch..
 - 📝 [Notes](notes/) – Personal study notes, cheat sheets, and guides.
 - 📂 [Assets](assets/) – Images, documents, wireframes, and other project resources.
 
