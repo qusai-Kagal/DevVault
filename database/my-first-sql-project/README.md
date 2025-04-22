@@ -75,7 +75,7 @@ SELECT * FROM table_name WHERE condition;
 
 ## 📜 License
 
-[Your license information]
+This project is licensed under the MIT License
 
 ## 👨‍💻 Author
 
