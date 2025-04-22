@@ -12,6 +12,7 @@ Welcome to **DevVault** – my personal coding vault where I store, organize, an
 - 📱 [App Development](app-development/) – Mobile and desktop app projects using platforms like Flutter, React Native, or native code.
 - 🤖 [AI / ML](ai-ml/) – Projects on machine learning, deep learning, and AI-powered tools.
 - 📊 [Data Science](data-science/) – Data analysis, visualizations, and Jupyter notebooks.
+- 🗃️ [Database](database/) – SQL, DBMS projects, and database queries.
 - 🧠 [Competitive Coding](competitive-coding/) – Solutions and practice from LeetCode, Codeforces, etc.
 - 🛠️ [Scripts](scripts/) – Useful automation, utilities, and standalone code snippets.
 - 🎮 [Game Development](game-development/) – Simple games and experimental gameplay projects.
