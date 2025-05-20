@@ -1,7 +1,6 @@
 # Repo Vista
 
 <p align="center">
-  <img src="preview-screenshot.png" alt="Repo Vista Logo" width="600"/>
   <br>
   <em>Create beautiful social preview images for your GitHub repositories</em>
 </p>
@@ -161,13 +160,6 @@ Add extra style with various patterns:
 - **Lines**: Diagonal lines
 - **Hexagons**: Hexagonal pattern
 - **Circuit**: Circuit board pattern
-
-## 📝 Examples
-
-Here are some examples of social preview images generated with Repo Vista:
-
-![Example 1](examples/example1.png)
-![Example 2](examples/example2.png)
 
 ## ⚡ Performance Optimization
 
