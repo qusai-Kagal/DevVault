@@ -1,7 +1,3 @@
-Sure! Here's the plain text version of the `README.md`:
-
----
-
 # 🔐 API Authentication with Node.js
 
 A beginner-friendly backend authentication setup using **Node.js**, **Express**, and **JWT (JSON Web Tokens)**. This project demonstrates how to secure API routes with token-based authentication.
@@ -29,7 +25,6 @@ api-authentication/
 ├── node_modules/
 ├── index.js          # Main server logic
 ├── package.json
-└── .env              # (For storing JWT secret)
 ```
 
 ## 🧠 Concepts Covered
@@ -83,5 +78,3 @@ This project is licensed under the MIT License.
 Made with 💻 by [Qusai](https://github.com/qusai-Kagal)
 
 ---
-
-Let me know if you want to include a sample `.env` or Postman collection too!
