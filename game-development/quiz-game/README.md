@@ -51,4 +51,4 @@ Feel free to fork this project and submit pull requests with improvements or add
 
 ## 📄 License
 
-[Specify your license here]
+[MIT]
