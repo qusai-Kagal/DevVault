@@ -116,7 +116,7 @@ As a passionate **Full-Stack Web Developer**, this repository represents my jour
 ### 🚀 **Blockchain & Web3 Applications**
 
 <details>
-<summary><strong>🏦 DBank - Decentralized Banking Platform</strong></summary>
+<summary><strong>🏦 DBank - Decentralised Banking Platform</strong></summary>
 
 **🎯 Problem Solved**: Trustless financial services on blockchain
 
@@ -134,12 +134,12 @@ As a passionate **Full-Stack Web Developer**, this repository represents my jour
 </details>
 
 <details>
-<summary><strong>📝 DKeeper - Decentralized Note-Taking App</strong></summary>
+<summary><strong>📝 DKeeper - Decentralised Note-Taking App</strong></summary>
 
 **🎯 Problem Solved**: Privacy-focused note storage on blockchain
 
 **💡 Key Features**:
-- Decentralized data storage
+- Decentralised data storage
 - CRUD operations on blockchain
 - React.js frontend with modern UI
 - Persistent blockchain storage
@@ -174,7 +174,7 @@ As a passionate **Full-Stack Web Developer**, this repository represents my jour
 <details>
 <summary><strong>🏋️‍♀️ Workout Generator - AI-Powered Fitness App</strong></summary>
 
-**🎯 Problem Solved**: Personalized fitness solutions
+**🎯 Problem Solved**: Personalised fitness solutions
 
 **💡 Key Features**:
 - Algorithm-based workout generation
@@ -189,7 +189,25 @@ As a passionate **Full-Stack Web Developer**, this repository represents my jour
 
 </details>
 
-### 📊 **Data Management & Visualization**
+<details>
+<summary><strong>🎭 Joke Generator - Interactive Entertainment App</strong></summary>
+
+**🎯 Problem Solved**: Dynamic content delivery with API integration
+
+**💡 Key Features**:
+- External API integration for jokes
+- Category-based filtering
+- Responsive design
+- Error handling and fallbacks
+- Clean user interface
+
+**🛠 Tech Stack**: `Node.js` `Express.js` `EJS` `External APIs`
+
+**📈 Business Impact**: API integration and frontend templating skills
+
+</details>
+
+### 📊 **Data Management & Visualisation**
 
 <details>
 <summary><strong>📚 Book Notes - Full-Stack Library System</strong></summary>
@@ -212,18 +230,18 @@ As a passionate **Full-Stack Web Developer**, this repository represents my jour
 <details>
 <summary><strong>📊 Repo Vista - GitHub Analytics Dashboard</strong></summary>
 
-**🎯 Problem Solved**: Repository visualization and social media optimization
+**🎯 Problem Solved**: Repository visualisation and social media optimisation
 
 **💡 Key Features**:
 - GitHub API integration
 - Real-time data fetching
-- 7 customizable themes
+- 7 customisable themes
 - HTML2Canvas image generation
-- Social preview optimization
+- Social preview optimisation
 
 **🛠 Tech Stack**: `React.js` `Bootstrap` `GitHub API` `HTML2Canvas` `Lucide React`
 
-**📈 Business Impact**: API integration and data visualization expertise
+**📈 Business Impact**: API integration and data visualisation expertise
 
 </details>
 
@@ -237,7 +255,7 @@ As a passionate **Full-Stack Web Developer**, this repository represents my jour
 **💡 Key Features**:
 - RESTful API design principles
 - Master key authentication for admin operations
-- Content filtering and categorization
+- Content filtering and categorisation
 - Error handling middleware
 - Express.js best practices
 
@@ -258,12 +276,48 @@ As a passionate **Full-Stack Web Developer**, this repository represents my jour
 - Glass-morphism design trends
 - Mobile-first responsive design
 - Intersection Observer animations
-- Performance optimization
+- Performance optimisation
 - Accessibility compliance
 
 **🛠 Tech Stack**: `HTML5` `CSS3` `JavaScript` `Bootstrap` `Font Awesome`
 
 **📈 Business Impact**: Client-ready solutions with modern design principles
+
+</details>
+
+<details>
+<summary><strong>💼 Simple Portfolio - Professional Template</strong></summary>
+
+**🎯 Problem Solved**: Clean, professional portfolio presentation
+
+**💡 Key Features**:
+- Responsive design principles
+- Cross-browser compatibility
+- SEO optimisation
+- Fast loading performance
+- Modern CSS techniques
+
+**🛠 Tech Stack**: `HTML5` `CSS3` `JavaScript` `Responsive Design`
+
+**📈 Business Impact**: Portfolio development and responsive design skills
+
+</details>
+
+<details>
+<summary><strong>🐶 Tindog - Modern Landing Page</strong></summary>
+
+**🎯 Problem Solved**: Engaging product landing page
+
+**💡 Key Features**:
+- Bootstrap framework utilisation
+- Modern UI/UX design
+- Call-to-action optimisation
+- Mobile-responsive layout
+- Brand identity implementation
+
+**🛠 Tech Stack**: `HTML5` `CSS3` `Bootstrap` `JavaScript`
+
+**📈 Business Impact**: Marketing-focused web development and conversion optimisation
 
 </details>
 
@@ -273,19 +327,19 @@ As a passionate **Full-Stack Web Developer**, this repository represents my jour
 
 | Project | Category | Tech Stack | Source Code |
 |---------|----------|------------|-------------|
-| **Secret Auth App** | 🔐 Authentication | Node.js + PostgreSQL | [Source](./secret-auth-app) |
-| **DBank** | 🚀 Blockchain | React + Motoko | [Source](./dbank) |
-| **Drum Kit** | 🎮 Interactive | HTML5 + Web Audio | [Source](./drum-kit) |
-| **Workout Generator** | 🏋️ AI/ML | Python + Streamlit | [Source](./workout-generator) |
-| **Repo Vista** | 📊 Data Viz | React + GitHub API | [Source](./repo-vista) |
-| **JokeAPI Express** | 🌐 Backend | Node.js + Express | [Source](./jokeAPI-express) |
-| **Book Notes** | 📚 Full-Stack | Node.js + PostgreSQL | [Source](./book-notes) |
-| **DKeeper** | 📝 Blockchain | React + Motoko | [Source](./dkeeper) |
-| **Joke Generator** | 🎭 Frontend | Node.js + Express | [Source](./joke-generator) |
-| **Logistics Demo** | 🚚 Business | HTML5 + CSS3 | [Source](./logistics-demo) |
-| **Simple Portfolio** | 💼 Template | HTML5 + CSS3 | [Source](./simple-portfolio) |
-| **Tindog** | 🐶 Landing Page | Bootstrap + HTML5 | [Source](./tindog) |
-| **API Authentication** | 🔑 Backend | Node.js + JWT | [Source](./api-authentication) |
+| **Secret Auth App** | 🔐 Authentication | Node.js + PostgreSQL | [Code](./secret-auth-app) |
+| **API Authentication** | 🔑 Backend | Node.js + JWT | [Code](./api-authentication) |
+| **DBank** | 🚀 Blockchain | React + Motoko | [Code](./dbank) |
+| **DKeeper** | 📝 Blockchain | React + Motoko | [Code](./dkeeper) |
+| **Drum Kit** | 🎮 Interactive | HTML5 + Web Audio | [Code](./drum-kit) |
+| **Workout Generator** | 🏋️ AI/ML | Python + Streamlit | [Code](./workout-generator) |
+| **Joke Generator** | 🎭 Frontend | Node.js + Express | [Code](./joke-generator) |
+| **Book Notes** | 📚 Full-Stack | Node.js + PostgreSQL | [Code](./book-notes) |
+| **Repo Vista** | 📊 Data Viz | React + GitHub API | [Code](./repo-vista) |
+| **JokeAPI Express** | 🌐 Backend | Node.js + Express | [Code](./jokeAPI-express) |
+| **Logistics Demo** | 🚚 Business | HTML5 + CSS3 | [Code](./logistics-demo) |
+| **Simple Portfolio** | 💼 Template | HTML5 + CSS3 | [Code](./simple-portfolio) |
+| **Tindog** | 🐶 Landing Page | Bootstrap + HTML5 | [Code](./tindog) |
 
 ---
 
@@ -293,26 +347,20 @@ As a passionate **Full-Stack Web Developer**, this repository represents my jour
 
 ```
 DevVault/web-development/
-├── 🔐 Authentication Systems/
-│   ├── secret-auth-app/         # Complete auth with PostgreSQL & Passport.js
-│   └── api-authentication/      # JWT-based API authentication
-├── 🚀 Blockchain Applications/
-│   ├── dbank/                   # Decentralized banking on Internet Computer
-│   └── dkeeper/                 # Blockchain-based note-taking app
-├── 🎮 Interactive Applications/
-│   ├── drum-kit/                # Web Audio API music application
-│   ├── workout-generator/       # AI-powered fitness generator
-│   ├── joke-generator/          # Interactive joke fetching app
-│   └── tindog/                  # Modern landing page with Bootstrap
-├── 📊 Data & Analytics/
-│   ├── book-notes/              # Full-stack library management
-│   └── repo-vista/              # GitHub repository analytics
-├── 🌐 Backend APIs/
-│   └── jokeAPI-express/         # RESTful API with CRUD operations
-├── 💼 Professional Solutions/
-│   ├── logistics-demo/          # Corporate website with modern design
-│   └── simple-portfolio/        # Responsive portfolio template
-└── 📄 README.md                 # This comprehensive documentation
+├── 📁 api-authentication/       # JWT-based API authentication system
+├── 📁 book-notes/              # Full-stack library management system
+├── 📁 dbank/                   # Decentralised banking on Internet Computer
+├── 📁 dkeeper/                 # Blockchain-based note-taking application
+├── 📁 drum-kit/                # Interactive Web Audio API music app
+├── 📁 joke-generator/          # Dynamic joke fetching application
+├── 📁 jokeAPI-express/         # RESTful API service with CRUD operations
+├── 📁 logistics-demo/          # Corporate website with modern design
+├── 📁 repo-vista/              # GitHub repository analytics dashboard
+├── 📁 secret-auth-app/         # Complete authentication with PostgreSQL
+├── 📁 simple-portfolio/        # Clean professional portfolio template
+├── 📁 tindog/                  # Modern Bootstrap landing page
+├── 📁 workout-generator/       # AI-powered fitness generator
+└── 📄 README.md               # This comprehensive documentation
 ```
 
 ---
@@ -367,7 +415,7 @@ docker run -p 3000:3000 qusai-devvault/auth-app
 ### 🔒 **Security Best Practices**
 - **Password Security**: bcrypt hashing with salt rounds
 - **Token Management**: JWT with refresh token rotation
-- **SQL Injection Prevention**: Parameterized queries
+- **SQL Injection Prevention**: Parameterised queries
 - **Environment Security**: Sensitive data in environment variables
 - **Session Security**: Secure cookies and CSRF protection
 
@@ -375,15 +423,15 @@ docker run -p 3000:3000 qusai-devvault/auth-app
 - **MVC Pattern**: Separation of concerns in Express.js apps
 - **RESTful APIs**: Standard HTTP methods and status codes
 - **Component-Based**: Modular React.js architecture
-- **Database Design**: Normalized PostgreSQL schemas
+- **Database Design**: Normalised PostgreSQL schemas
 - **Error Handling**: Comprehensive error middleware
 
-### 📈 **Performance Optimization**
+### 📈 **Performance Optimisation**
 - **Lazy Loading**: Components loaded on demand
-- **Image Optimization**: Compressed assets for faster loading
+- **Image Optimisation**: Compressed assets for faster loading
 - **API Caching**: Reduced API calls with intelligent caching
-- **Bundle Optimization**: Webpack configuration for minimal bundle size
-- **Database Indexing**: Optimized queries for better performance
+- **Bundle Optimisation**: Webpack configuration for minimal bundle size
+- **Database Indexing**: Optimised queries for better performance
 
 ---
 
@@ -457,7 +505,7 @@ Each project includes:
 
 ### **Security & Performance**
 - ✅ Secure coding practices
-- ✅ Performance optimization
+- ✅ Performance optimisation
 - ✅ Error handling and logging
 - ✅ Testing and quality assurance
 
@@ -482,7 +530,7 @@ Each project includes:
 - **Load Time**: < 3 seconds for all applications
 - **Lighthouse Score**: 90+ for performance and accessibility
 - **Responsive Design**: 100% mobile compatibility
-- **SEO Optimization**: Meta tags and semantic HTML
+- **SEO Optimisation**: Meta tags and semantic HTML
 
 ### 💪 **Code Quality Metrics**
 - **Test Coverage**: 80%+ for critical business logic
@@ -505,10 +553,10 @@ I'm always open to collaborating on interesting projects! Here's how you can con
 
 ### 💡 **Areas for Collaboration**
 - **New Features**: Additional projects or enhancements
-- **Code Review**: Best practices and optimization suggestions
+- **Code Review**: Best practices and optimisation suggestions
 - **Documentation**: Improve existing documentation
 - **Testing**: Add comprehensive test coverage
-- **Performance**: Optimization and profiling
+- **Performance**: Optimisation and profiling
 
 ---
 
@@ -535,17 +583,16 @@ Clean, well-documented code that other developers can understand and contribute 
 
 <div align="center">
 
-### **Ready to discuss your next project?**
+### **Ready to connect?**
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/qusai-Kagal)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](#)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](#)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/qusai-kagalwala/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:qusai.kagalwala53@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://github.com/qusai-Kagal/DevVault)
 
 ### **Let's build something amazing together!**
 
-**📧 Email**: [Create an Issue](https://github.com/qusai-Kagal/DevVault/issues/new?assignees=&labels=contact&template=contact.md&title=Contact+Request) for quickest response  
-**📱 Availability**: Open to full-time, contract, and freelance opportunities  
+**📧 Email**: [qusai.kagalwala53@gmail.com](mailto:qusai.kagalwala53@gmail.com)  
 **🌍 Location**: Available for remote work worldwide  
 **⏰ Response Time**: Usually within 24 hours
 
@@ -553,13 +600,13 @@ Clean, well-documented code that other developers can understand and contribute 
 
 ---
 
-## 📄 License
+## 📄 Licence
 
 <div align="center">
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge&logo=opensourceinitiative)](LICENSE)
 
-**This portfolio is licensed under the MIT License**
+**This portfolio is licensed under the MIT Licence**
 
 Feel free to use this code for learning, inspiration, or as a starting point for your own projects.
 
@@ -580,7 +627,7 @@ Feel free to use this code for learning, inspiration, or as a starting point for
 
 **"Building the future, one line of code at a time"**
 
-*Developed with ❤️ by Qusai Kagal*
+*Developed with ❤️ by Qusai Kagalwala*
 
 [![Stars](https://img.shields.io/github/stars/qusai-Kagal/DevVault?style=social)](https://github.com/qusai-Kagal/DevVault/stargazers)
 [![Follow](https://img.shields.io/github/followers/qusai-Kagal?style=social)](https://github.com/qusai-Kagal)
