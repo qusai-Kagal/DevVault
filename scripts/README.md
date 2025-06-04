@@ -166,40 +166,42 @@ This portfolio encompasses **15+ Python scripts** covering automation, security,
 
 | Project | Category | Tech Stack | Source Code |
 |---------|----------|------------|-------------|
-| **Secure Password Manager** | 🔐 Security | Python + Cryptography | [Source](./scripts/secure-password-manager) |
-| **Password Generator** | 🔐 Security | Python + Random | [Source](./scripts/password-generator) |
-| **Caesar Cipher** | 🔐 Security | Python + Algorithms | [Source](./scripts/caesar-cipher) |
-| **Backup Scheduler** | 🚀 Automation | Python + Schedule | [Source](./scripts/backup-scheduler) |
-| **VocalizeIt TTS** | 🚀 Automation | Python + Audio APIs | [Source](./scripts/vocalize-it) |
-| **Coffee Machine OOP** | 🎮 Interactive | Python + OOP | [Source](./scripts/coffee-machine-oop) |
-| **Coffee Machine Simulator** | 🎮 Interactive | Python + Functions | [Source](./scripts/coffee-machine-simulator) |
-| **Blind Auction** | 🎮 Interactive | Python + Dictionaries | [Source](./scripts/blind-auction) |
-| **Tip Calculator** | 🧮 Utilities | Python + Math | [Source](./scripts/tip-calculator) |
-| **TimeMinder** | ⏰ Utilities | Python + Audio | [Source](./scripts/time-minder) |
+| **Backup Scheduler** | 🚀 Automation | Python + Schedule | [Source](./backup-scheduler) |
+| **Band Name Generator** | 🎮 Interactive | Python + Input/Output | [Source](./band_name_generator) |
+| **Blind Auction** | 🎮 Interactive | Python + Dictionaries | [Source](./blind-auction) |
+| **Caesar Cipher** | 🔐 Security | Python + Algorithms | [Source](./caesar-cipher) |
+| **Calculator** | 🧮 Utilities | Python + Math | [Source](./calculator) |
+| **Certification Automation Tool** | 🚀 Automation | Python + Automation | [Source](./certification-automation-tool) |
+| **Coffee Machine OOP** | 🎮 Interactive | Python + OOP | [Source](./coffee-machine-oop) |
+| **Coffee Machine Simulator** | 🎮 Interactive | Python + Functions | [Source](./coffee-machine-simulator) |
+| **Password Generator** | 🔐 Security | Python + Random | [Source](./password-generator) |
+| **Secure Pass Gen** | 🔐 Security | Python + Security | [Source](./secure-pass-gen) |
+| **Secure Password Manager** | 🔐 Security | Python + Cryptography | [Source](./secure-password-manager) |
+| **Time Minder** | ⏰ Utilities | Python + Audio | [Source](./time-minder) |
+| **Tip Calculator** | 🧮 Utilities | Python + Math | [Source](./tip-calculator) |
+| **VocalizeIt** | 🚀 Automation | Python + Audio APIs | [Source](./vocalize-it) |
 
 ---
 
 ## 📁 Repository Architecture
 
 ```
-DevVault/
-├── 🔐 security/
-│   ├── secure-password-manager/    # Encrypted password storage system
-│   ├── password-generator/         # Secure password generation utility
-│   └── caesar-cipher/             # Classic encryption implementation
-├── 🚀 automation/
-│   ├── backup-scheduler/           # Automated file backup system
-│   ├── vocalize-it/               # Text-to-speech converter
-│   └── certification-automation/   # Certificate generation tool
-├── 🎮 interactive/
-│   ├── coffee-machine-oop/        # Object-oriented coffee machine
-│   ├── coffee-machine-simulator/  # Procedural coffee machine
-│   └── blind-auction/             # Private bidding system
-├── 🧮 utilities/
-│   ├── tip-calculator/            # Restaurant bill calculator
-│   ├── calculator/                # Basic arithmetic operations
-│   └── time-minder/               # Countdown timer with alerts
-└── 📄 README.md                   # This documentation
+scripts/
+├── backup-scheduler/              # Automated file backup system
+├── band_name_generator/           # Creative band name creation tool
+├── blind-auction/                 # Private bidding system
+├── caesar-cipher/                 # Classic encryption implementation
+├── calculator/                    # Basic arithmetic operations
+├── certification-automation-tool/ # Certificate generation utility
+├── coffee-machine-oop/           # Object-oriented coffee machine
+├── coffee-machine-simulator/     # Procedural coffee machine
+├── password-generator/           # Secure password generation utility
+├── secure-pass-gen/              # Advanced password generator
+├── secure-password-manager/      # Encrypted password storage system
+├── time-minder/                  # Countdown timer with alerts
+├── tip-calculator/               # Restaurant bill calculator
+├── vocalize-it/                  # Text-to-speech converter
+└── README.md                     # This documentation
 ```
 
 ---
