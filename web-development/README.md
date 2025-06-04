@@ -21,21 +21,21 @@
 <details>
 <summary>Click to expand navigation</summary>
 
-- [🎯 Overview](#overview)
-- [✨ Features](#features)
-- [🛠 Technology Stack](#technology-stack)
-- [🚀 Quick Start](#quick-start)
-- [💻 Projects](#projects)
-- [📁 Project Structure](#project-structure)
-- [🔧 Installation](#installation)
-- [📖 Usage](#usage)
-- [🧪 Testing](#testing)
-- [📚 Documentation](#documentation)
-- [🤝 Contributing](#contributing)
-- [🔄 Changelog](#changelog)
-- [❓ FAQ](#faq)
-- [📞 Support](#support)
-- [📄 License](#license)
+- [🎯 Overview](#-overview)
+- [✨ Features](#-features)
+- [🛠 Technology Stack](#-technology-stack)
+- [🚀 Quick Start](#-quick-start)
+- [💻 Projects](#-projects)
+- [📁 Project Structure](#-project-structure)
+- [🔧 Installation](#-installation)
+- [📖 Usage](#-usage)
+- [🧪 Testing](#-testing)
+- [📚 Documentation](#-documentation)
+- [🤝 Contributing](#-contributing)
+- [🔄 Changelog](#-changelog)
+- [❓ FAQ](#-faq)
+- [📞 Support](#-support)
+- [📄 License](#-license)
 
 </details>
 
