@@ -181,7 +181,7 @@ Ensure you have the following installed:
 ## 💻 Projects
 
 <details>
-<summary><strong>🔐 Authentication & Security</strong></summary>
+<summary><strong>🔐 Authentication & Security Projects</strong></summary>
 
 ### api-authentication
 Complete API authentication system with JWT tokens, password hashing, and protected routes.
@@ -190,7 +190,7 @@ Complete API authentication system with JWT tokens, password hashing, and protec
 - JWT token-based authentication
 - Password encryption with bcrypt
 - Protected route middleware
-- User registration and login
+- User registration and login endpoints
 
 **Tech Stack:** `Node.js` `Express.js` `JWT` `bcrypt`
 
@@ -201,7 +201,7 @@ Advanced authentication application with OAuth integration and session managemen
 - OAuth integration (Google, GitHub)
 - Session management
 - Password reset functionality
-- Two-factor authentication
+- Secure authentication flows
 
 **Tech Stack:** `Node.js` `Express.js` `OAuth` `Sessions`
 
@@ -221,108 +221,132 @@ Browser-based virtual drum kit with realistic sound effects and keyboard control
 
 **Tech Stack:** `HTML5` `CSS3` `JavaScript` `Web Audio API`
 
-### workout-generator
-Personalized fitness routine generator with exercise database and customisation options.
+### joke-generator
+Interactive frontend application for generating and displaying random jokes.
 
 **Features:**
-- Exercise filtering by equipment
-- Customisable workout duration
-- Random routine generation
-- Progress tracking
+- Dynamic joke fetching
+- Category filtering
+- Responsive design
+- Social sharing capabilities
 
 **Tech Stack:** `HTML5` `CSS3` `JavaScript` `Bootstrap`
 
 ### tindog
-Tinder-style dog matching application with swipe functionality.
+Tinder-style dog matching application with modern UI and responsive design.
 
 **Features:**
-- Responsive design with Bootstrap
-- Card-based UI
-- Mobile-first approach
+- Card-based UI design
+- Responsive Bootstrap layout
 - Modern CSS animations
+- Mobile-first approach
 
 **Tech Stack:** `HTML5` `CSS3` `Bootstrap` `JavaScript`
+
+### workout-generator
+Personalized fitness routine generator with exercise database and customization options.
+
+**Features:**
+- Exercise filtering by equipment type
+- Customizable workout duration
+- Random routine generation
+- Progress tracking capabilities
+
+**Tech Stack:** `HTML5` `CSS3` `JavaScript` `Bootstrap`
 
 </details>
 
 <details>
-<summary><strong>📊 Data Management</strong></summary>
+<summary><strong>📊 Data Management & Storage</strong></summary>
 
-### dbank
-Banking application simulation with transaction tracking and account management.
+### book-notes
+Digital library management system for tracking books, writing reviews, and organizing reading notes.
 
 **Features:**
-- Account balance management
-- Transaction history
-- Local storage persistence
-- Financial calculations
+- CRUD operations for book management
+- Search and filter functionality
+- Reading progress tracking
+- Note-taking and review system
 
 **Tech Stack:** `HTML5` `CSS3` `JavaScript` `Local Storage`
 
-### book-notes
-Digital library management system for tracking books and writing reviews.
+### dbank
+Banking application simulation with comprehensive transaction tracking and account management.
 
 **Features:**
-- CRUD operations for books
-- Search and filter functionality
-- Reading progress tracking
-- Note-taking system
+- Account balance management
+- Transaction history tracking
+- Local storage data persistence
+- Financial calculations and reporting
+
+**Tech Stack:** `HTML5` `CSS3` `JavaScript` `Local Storage`
+
+### dkeeper
+Digital data organization tool for managing and storing personal information.
+
+**Features:**
+- Data organization and categorization
+- Search and retrieval functionality
+- Secure data storage
+- User-friendly interface
 
 **Tech Stack:** `HTML5` `CSS3` `JavaScript` `Local Storage`
 
 ### repo-vista
-GitHub repository visualisation tool with statistics and analytics.
+GitHub repository visualization tool with comprehensive statistics and analytics.
 
 **Features:**
-- Repository statistics
-- Contribution graphs
-- Project analytics
-- Data visualisation
+- Repository statistics dashboard
+- Contribution graphs and charts
+- Project analytics and insights
+- Data visualization components
 
-**Tech Stack:** `HTML5` `CSS3` `JavaScript` `Chart.js`
+**Tech Stack:** `HTML5` `CSS3` `JavaScript` `Chart.js` `GitHub API`
 
 </details>
 
 <details>
-<summary><strong>🚀 API Development</strong></summary>
+<summary><strong>🚀 Backend & API Development</strong></summary>
 
 ### jokeAPI-express
-RESTful API server for delivering jokes with comprehensive documentation.
+RESTful API server built with Express.js for delivering jokes with comprehensive functionality.
 
 **Features:**
 - RESTful API endpoints
-- Rate limiting
-- Error handling
+- Rate limiting and security
+- Error handling middleware
 - API documentation
+- CORS support
 
-**Tech Stack:** `Node.js` `Express.js` `REST API`
+**Tech Stack:** `Node.js` `Express.js` `REST API` `Middleware`
 
 </details>
 
 <details>
 <summary><strong>💼 Professional Templates</strong></summary>
 
-### simple-portfolio
-Clean, responsive portfolio website template with modern design.
+### logistics-demo
+Professional logistics management dashboard demonstrating package tracking and route optimization.
 
 **Features:**
-- Responsive design
-- Modern UI/UX
-- Smooth animations
+- Dashboard interface design
+- Package tracking system
+- Route visualization
+- Management tools and analytics
+
+**Tech Stack:** `HTML5` `CSS3` `JavaScript` `Chart.js` `Bootstrap`
+
+### simple-portfolio
+Clean, responsive portfolio website template with modern design principles.
+
+**Features:**
+- Fully responsive design
+- Modern UI/UX patterns
+- Smooth CSS animations
 - Contact form integration
+- SEO optimization
 
 **Tech Stack:** `HTML5` `CSS3` `JavaScript` `Bootstrap`
-
-### logistics-demo
-Logistics management dashboard with package tracking and route optimisation.
-
-**Features:**
-- Dashboard interface
-- Package tracking
-- Route visualisation
-- Management tools
-
-**Tech Stack:** `HTML5` `CSS3` `JavaScript` `Chart.js`
 
 </details>
 
@@ -332,31 +356,27 @@ Logistics management dashboard with package tracking and route optimisation.
 
 ```
 web-development/
-├── 🔐 Authentication/
-│   ├── api-authentication/      # JWT-based API authentication
-│   └── secret-auth-app/         # Advanced OAuth authentication
-├── 🎮 Interactive/
-│   ├── drum-kit/                # Virtual drum kit with audio
-│   ├── workout-generator/       # Fitness routine generator
-│   └── tindog/                  # Dog matching application
-├── 📊 Data Management/
-│   ├── dbank/                   # Banking simulation
-│   ├── book-notes/              # Digital library system
-│   ├── dkeeper/                 # Data organisation tool
-│   └── repo-vista/              # Repository analytics
-├── 🚀 API Development/
-│   ├── jokeAPI-express/         # Express.js joke API
-│   └── joke-generator/          # Frontend joke generator
-├── 💼 Templates/
-│   ├── simple-portfolio/        # Portfolio template
-│   └── logistics-demo/          # Logistics dashboard
-├── 📚 Documentation/
-│   ├── README.md               # This file
-│   ├── CONTRIBUTING.md         # Contribution guidelines
-│   ├── CODE_OF_CONDUCT.md      # Code of conduct
-│   └── CHANGELOG.md            # Version history
-└── 🧪 Tests/
-    └── test-configs/           # Testing configurations
+├── 📄 README.md                 # This documentation file
+├── 🔐 Authentication & Security/
+│   ├── api-authentication/      # JWT-based API authentication system
+│   └── secret-auth-app/         # Advanced OAuth authentication app
+├── 🎮 Interactive Applications/
+│   ├── drum-kit/                # Virtual drum kit with Web Audio API
+│   ├── joke-generator/          # Interactive joke generator frontend
+│   ├── tindog/                  # Tinder-style dog matching app
+│   └── workout-generator/       # Personalized fitness routine generator
+├── 📊 Data Management & Storage/
+│   ├── book-notes/              # Digital book library management
+│   ├── dbank/                   # Banking application simulation
+│   ├── dkeeper/                 # Digital data organization tool
+│   └── repo-vista/              # GitHub repository analytics dashboard
+├── 🚀 Backend & API Development/
+│   └── jokeAPI-express/         # Express.js RESTful joke API server
+├── 💼 Professional Templates/
+│   ├── logistics-demo/          # Logistics management dashboard
+│   └── simple-portfolio/        # Clean responsive portfolio template
+└── 📁 Additional Projects/
+    └── [Future projects...]     # Space for new additions
 ```
 
 ---
