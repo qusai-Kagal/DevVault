@@ -1,436 +1,640 @@
 # 🌐 DevVault - Web Development Collection
 
-> 🚀 **A comprehensive toolkit for modern web development** featuring interactive applications, secure authentication systems, and production-ready templates.
+<div align="center">
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat&logo=node.js&logoColor=white)](https://nodejs.org/)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
-[![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
-[![Express.js](https://img.shields.io/badge/Express.js-404D59?style=flat)](https://expressjs.com/)
+[![DevVault](https://img.shields.io/badge/DevVault-Web%20Development-2ea44f?style=for-the-badge&logo=github)](https://github.com/qusai-Kagal/DevVault)
+[![Stars](https://img.shields.io/github/stars/qusai-Kagal/DevVault?style=for-the-badge&logo=github&color=gold)](https://github.com/qusai-Kagal/DevVault/stargazers)
+[![Forks](https://img.shields.io/github/forks/qusai-Kagal/DevVault?style=for-the-badge&logo=github&color=blue)](https://github.com/qusai-Kagal/DevVault/network/members)
+[![Issues](https://img.shields.io/github/issues/qusai-Kagal/DevVault?style=for-the-badge&logo=github&color=red)](https://github.com/qusai-Kagal/DevVault/issues)
+[![License](https://img.shields.io/github/license/qusai-Kagal/DevVault?style=for-the-badge&logo=opensourceinitiative&color=brightgreen)](LICENSE)
 
-Welcome to the Web Development section of DevVault! This repository contains a curated collection of web development projects, templates, tools, and resources designed to accelerate your development workflow.
+**A comprehensive toolkit for modern web development featuring interactive applications, secure authentication systems, and production-ready templates.**
+
+[📚 Documentation](#documentation) • [🚀 Quick Start](#quick-start) • [💻 Projects](#projects) • [🤝 Contributing](#contributing) • [💬 Support](#support)
+
+</div>
+
+---
 
 ## 📋 Table of Contents
 
+<details>
+<summary>Click to expand navigation</summary>
+
 - [🎯 Overview](#overview)
-- [🚀 Projects](#projects)
-- [🛠 Technologies](#technologies)
-- [🏁 Getting Started](#getting-started)
+- [✨ Features](#features)
+- [🛠 Technology Stack](#technology-stack)
+- [🚀 Quick Start](#quick-start)
+- [💻 Projects](#projects)
 - [📁 Project Structure](#project-structure)
-- [💻 Installation](#installation)
-- [🎮 Usage](#usage)
+- [🔧 Installation](#installation)
+- [📖 Usage](#usage)
+- [🧪 Testing](#testing)
+- [📚 Documentation](#documentation)
 - [🤝 Contributing](#contributing)
-- [📚 Resources](#resources)
+- [🔄 Changelog](#changelog)
+- [❓ FAQ](#faq)
+- [📞 Support](#support)
 - [📄 License](#license)
+
+</details>
+
+---
 
 ## 🎯 Overview
 
-DevVault's web development collection showcases a diverse range of practical projects, from interactive applications to secure authentication systems. Each project demonstrates different aspects of modern web development, including frontend interactivity, backend API development, authentication, and data management.
+**DevVault Web Development Collection** is a curated repository of production-ready web applications, templates, and tools designed to accelerate your development workflow. From interactive frontend applications to secure backend systems, this collection showcases modern web development practices and industry standards.
 
-### What's Included
+### Why DevVault?
 
-- **🎮 Interactive Web Apps**: Virtual drum kit with sound effects, fitness workout generator with equipment filtering, and dog matching landing page
-  - `#interactive` `#audio-api` `#bootstrap` `#frontend`
-- **🔒 Authentication Systems**: JWT-based API authentication, OAuth integration, and secure session management with password encryption
-  - `#jwt` `#oauth` `#security` `#backend` `#nodejs`
-- **📊 Data Management Tools**: Banking simulations with transaction tracking, digital note-taking systems, and repository analytics dashboards
-  - `#data-visualization` `#local-storage` `#charts` `#crud`
-- **🚀 API Development**: Express.js servers with RESTful endpoints, comprehensive documentation, and joke delivery APIs
-  - `#express` `#rest-api` `#nodejs` `#backend`
-- **💼 Professional Templates**: Responsive portfolio websites with modern UI/UX and logistics management dashboards
-  - `#responsive` `#portfolio` `#templates` `#css`
-- **🎯 Learning Projects**: Real-world examples demonstrating Bootstrap components, DOM manipulation, local storage, and modern web development patterns
-  - `#education` `#best-practices` `#modern-web` `#javascript`
-- **🐍 Python Integration**: Backend logic, data processing, and web framework implementations
-  - `#python` `#flask` `#django` `#data-science`
+- **🏗 Production-Ready**: All projects follow industry best practices
+- **📚 Educational**: Perfect for learning and skill development
+- **🔧 Reusable**: Templates and components ready for customisation
+- **🚀 Modern**: Built with latest technologies and frameworks
+- **🔒 Secure**: Implements proper authentication and security measures
 
-## 🚀 Projects
+---
 
-### 🔐 Authentication & Security
-- **api-authentication** - Complete API authentication system with secure login/logout, JWT tokens, and protected routes
-- **secret-auth-app** - Advanced authentication application featuring OAuth integration, password encryption, and session management
+## ✨ Features
 
-### 🎵 Interactive Applications
-- **drum-kit** - Browser-based virtual drum kit with keyboard controls, sound effects, and responsive design
-- **joke-generator** - Dynamic joke generator with API integration, categories, and social sharing features
-- **workout-generator** - Personalized fitness routine generator with exercise database and customizable workout plans
+<table>
+<tr>
+<td width="50%">
 
-### 📚 Productivity & Utility Tools
-- **book-notes** - Digital library management system for tracking books, writing reviews, and organizing reading notes
-- **simple-portfolio** - Clean, responsive portfolio website template with modern design and smooth animations
-- **logistics-demo** - Logistics management dashboard demonstrating package tracking, route optimization, and delivery management
-- **repo-vista** - GitHub repository visualization tool with statistics, contribution graphs, and project analytics
+### 🎮 Interactive Applications
+- Virtual drum kit with audio APIs
+- Fitness workout generator
+- Dog matching platform
+- Interactive UI components
 
-### 🏦 Financial & Data Management
-- **dbank** - Banking application simulation with account management, transactions, balance tracking, and financial dashboard
-- **dkeeper** - Digital note-taking and data organization tool with search functionality and cloud synchronization
+</td>
+<td width="50%">
 
-### 🔧 Backend & API Development
-- **jokeAPI-express** - RESTful API server built with Express.js for delivering jokes with rate limiting and documentation
+### 🔐 Security & Authentication
+- JWT-based API authentication
+- OAuth integration
+- Password encryption
+- Session management
 
-### 🐕 Entertainment Applications
-- **tindog** - Tinder-style dog matching application with swipe functionality, profiles, and match notifications
+</td>
+</tr>
+<tr>
+<td width="50%">
 
-## 🛠 Technologies
+### 📊 Data Management
+- Banking simulations
+- Note-taking systems
+- Repository analytics
+- CRUD operations
 
-### 🌐 Frontend Technologies
-![Frontend](https://img.shields.io/badge/Stack-Frontend-blue?style=flat)
+</td>
+<td width="50%">
 
-- **📝 Languages**: 
-  - ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white) HTML5, CSS3, JavaScript (ES6+)
-- **🎨 Frameworks & Libraries**: 
-  - ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black) React.js, Vue.js (where applicable)
-  - ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white) Bootstrap 4/5
-- **🎭 Styling**: 
-  - CSS Grid, Flexbox, CSS Animations, Responsive Design
-- **💫 UI/UX**: 
-  - Interactive elements, smooth transitions, mobile-first design
+### 🚀 API Development
+- RESTful Express.js servers
+- Comprehensive documentation
+- Rate limiting
+- Error handling
 
-### ⚙️ Backend Technologies
-![Backend](https://img.shields.io/badge/Stack-Backend-green?style=flat)
+</td>
+</tr>
+</table>
 
-- **🔧 Runtime**: 
-  - ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white) Node.js
-- **🚀 Framework**: 
-  - ![Express](https://img.shields.io/badge/-Express.js-000000?style=flat&logo=express&logoColor=white) Express.js
-- **🔐 Authentication**: 
-  - ![JWT](https://img.shields.io/badge/-JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white) JWT (JSON Web Tokens), bcrypt for password hashing
-- **📡 APIs**: 
-  - RESTful API design, HTTP methods, status codes
+---
 
-### 🐍 Python Integration
-![Python](https://img.shields.io/badge/Stack-Python-yellow?style=flat)
+## 🛠 Technology Stack
 
-- **🔬 Data Processing**: 
-  - ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) Python for data analysis and backend logic
-- **🌐 Web Frameworks**: 
-  - ![Flask](https://img.shields.io/badge/-Flask-000000?style=flat&logo=flask&logoColor=white) Flask, 
-  - ![Django](https://img.shields.io/badge/-Django-092E20?style=flat&logo=django&logoColor=white) Django (for scalable applications)
-- **📊 Libraries**: 
-  - ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat&logo=numpy&logoColor=white) NumPy, 
-  - ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat&logo=pandas&logoColor=white) Pandas for data manipulation
+<div align="center">
 
-### 🛠 Development Tools
-![Tools](https://img.shields.io/badge/Stack-DevTools-orange?style=flat)
+### Frontend Technologies
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 
-- **📂 Version Control**: 
-  - ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white) Git, 
-  - ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white) GitHub
-- **🏗️ Code Organization**: 
-  - Modular JavaScript, component-based architecture
-- **🌍 Browser APIs**: 
-  - Local Storage, Fetch API, DOM manipulation
-- **📱 Responsive Design**: 
-  - Media queries, viewport optimization
+### Backend Technologies
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-404D59?style=flat-square&logo=express&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
 
-### 🎯 Project-Specific Technologies
-![Specialized](https://img.shields.io/badge/Stack-Specialized-purple?style=flat)
+### Development Tools
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-- **🎵 Audio**: Web Audio API (drum-kit)
-- **🎨 UI Frameworks**: Bootstrap 4/5 (tindog, simple-portfolio)
-- **📊 Data Visualization**: Chart.js, custom dashboards (repo-vista, logistics-demo)
-- **💾 Database Simulation**: Local Storage, JSON data structures (dbank, book-notes)
-- **🖱️ UI Interactions**: Drag & drop, keyboard events, form validation (workout-generator)
-- **💪 Fitness APIs**: Exercise databases, routine algorithms (workout-generator)
+</div>
 
-#### 🥁 Drum Kit
-Interactive virtual drum set with keyboard controls and realistic sound effects. Perfect for learning DOM event handling, audio manipulation, and creating engaging user interfaces.
+---
 
-#### 🏦 DBank
-Complete banking simulation featuring account management, transaction history, and balance calculations. Demonstrates local storage usage, financial logic implementation, and data persistence.
-
-#### 🔐 API Authentication
-Full-featured authentication system with JWT tokens, password hashing, and protected routes. Essential learning for secure web applications and backend development.
-
-#### 📖 Book Notes
-Digital library management with CRUD operations, search functionality, and reading progress tracking. Great example of data organization and user interface design.
-
-#### 🐕 TinDog
-Bootstrap-powered landing page inspired by Tinder for dogs. Showcases modern UI/UX patterns, responsive design, and component-based development using Bootstrap framework.
-
-## 🏁 Getting Started
+## 🚀 Quick Start
 
 ### Prerequisites
 
-Before running any projects, ensure you have the following installed:
+Ensure you have the following installed:
 
-- **Node.js** (v16 or higher)
-- **npm** or **yarn**
-- **Git**
-- **Docker** (for containerized projects)
+| Tool | Version | Purpose |
+|------|---------|---------|
+| ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white) | v16+ | JavaScript runtime |
+| ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | v3.8+ | Python projects |
+| ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white) | Latest | Version control |
+| ![Browser](https://img.shields.io/badge/-Browser-4285F4?style=flat-square&logo=google-chrome&logoColor=white) | Modern | Testing & development |
 
-## 🏁 Getting Started
+### Installation
 
-### 📋 Prerequisites
-
-Before exploring the projects, ensure you have:
-
-- **🌐 Web Browser** (Chrome, Firefox, Safari, Edge)
-- **📝 Text Editor** (VS Code, Sublime Text, Atom)
-- **⚙️ Node.js** (v14 or higher) - for Express.js projects
-- **🐍 Python** (v3.7 or higher) - for Python-based projects
-- **📦 Git** - for cloning the repository
-
-### 🚀 Quick Start
-
-1. **📥 Clone the repository**
+1. **Clone the repository**
    ```bash
    git clone https://github.com/qusai-Kagal/DevVault.git
    cd DevVault/web-development
    ```
 
-2. **📂 Choose a project** (e.g., drum-kit)
+2. **Choose your project type**
+
+   **For Static Projects (HTML/CSS/JS):**
    ```bash
    cd drum-kit
-   ```
-
-3. **🌐 For static web projects** (HTML/CSS/JS)
-   ```bash
-   # Simply open index.html in your browser
+   # Open index.html in your browser
    open index.html
-   # or double-click the file
    ```
 
-4. **⚙️ For Node.js/Express projects**
+   **For Node.js Projects:**
    ```bash
-   # Install dependencies
+   cd api-authentication
    npm install
-   
-   # Start the server
    npm start
-   # or
-   node server.js
-   
-   # Visit http://localhost:3000
    ```
 
-5. **🐍 For Python projects**
+   **For Python Projects:**
    ```bash
-   # Create virtual environment
+   cd secret-auth-app
    python -m venv venv
-   
-   # Activate virtual environment
-   # Windows:
-   venv\Scripts\activate
-   # macOS/Linux:
-   source venv/bin/activate
-   
-   # Install dependencies
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
    pip install -r requirements.txt
-   
-   # Run the application
    python app.py
    ```
+
+---
+
+## 💻 Projects
+
+<details>
+<summary><strong>🔐 Authentication & Security</strong></summary>
+
+### api-authentication
+Complete API authentication system with JWT tokens, password hashing, and protected routes.
+
+**Features:**
+- JWT token-based authentication
+- Password encryption with bcrypt
+- Protected route middleware
+- User registration and login
+
+**Tech Stack:** `Node.js` `Express.js` `JWT` `bcrypt`
+
+### secret-auth-app
+Advanced authentication application with OAuth integration and session management.
+
+**Features:**
+- OAuth integration (Google, GitHub)
+- Session management
+- Password reset functionality
+- Two-factor authentication
+
+**Tech Stack:** `Node.js` `Express.js` `OAuth` `Sessions`
+
+</details>
+
+<details>
+<summary><strong>🎮 Interactive Applications</strong></summary>
+
+### drum-kit
+Browser-based virtual drum kit with realistic sound effects and keyboard controls.
+
+**Features:**
+- Web Audio API integration
+- Keyboard event handling
+- Visual feedback animations
+- Multiple drum sounds
+
+**Tech Stack:** `HTML5` `CSS3` `JavaScript` `Web Audio API`
+
+### workout-generator
+Personalized fitness routine generator with exercise database and customisation options.
+
+**Features:**
+- Exercise filtering by equipment
+- Customisable workout duration
+- Random routine generation
+- Progress tracking
+
+**Tech Stack:** `HTML5` `CSS3` `JavaScript` `Bootstrap`
+
+### tindog
+Tinder-style dog matching application with swipe functionality.
+
+**Features:**
+- Responsive design with Bootstrap
+- Card-based UI
+- Mobile-first approach
+- Modern CSS animations
+
+**Tech Stack:** `HTML5` `CSS3` `Bootstrap` `JavaScript`
+
+</details>
+
+<details>
+<summary><strong>📊 Data Management</strong></summary>
+
+### dbank
+Banking application simulation with transaction tracking and account management.
+
+**Features:**
+- Account balance management
+- Transaction history
+- Local storage persistence
+- Financial calculations
+
+**Tech Stack:** `HTML5` `CSS3` `JavaScript` `Local Storage`
+
+### book-notes
+Digital library management system for tracking books and writing reviews.
+
+**Features:**
+- CRUD operations for books
+- Search and filter functionality
+- Reading progress tracking
+- Note-taking system
+
+**Tech Stack:** `HTML5` `CSS3` `JavaScript` `Local Storage`
+
+### repo-vista
+GitHub repository visualisation tool with statistics and analytics.
+
+**Features:**
+- Repository statistics
+- Contribution graphs
+- Project analytics
+- Data visualisation
+
+**Tech Stack:** `HTML5` `CSS3` `JavaScript` `Chart.js`
+
+</details>
+
+<details>
+<summary><strong>🚀 API Development</strong></summary>
+
+### jokeAPI-express
+RESTful API server for delivering jokes with comprehensive documentation.
+
+**Features:**
+- RESTful API endpoints
+- Rate limiting
+- Error handling
+- API documentation
+
+**Tech Stack:** `Node.js` `Express.js` `REST API`
+
+</details>
+
+<details>
+<summary><strong>💼 Professional Templates</strong></summary>
+
+### simple-portfolio
+Clean, responsive portfolio website template with modern design.
+
+**Features:**
+- Responsive design
+- Modern UI/UX
+- Smooth animations
+- Contact form integration
+
+**Tech Stack:** `HTML5` `CSS3` `JavaScript` `Bootstrap`
+
+### logistics-demo
+Logistics management dashboard with package tracking and route optimisation.
+
+**Features:**
+- Dashboard interface
+- Package tracking
+- Route visualisation
+- Management tools
+
+**Tech Stack:** `HTML5` `CSS3` `JavaScript` `Chart.js`
+
+</details>
+
+---
 
 ## 📁 Project Structure
 
 ```
 web-development/
-├── api-authentication/          # Secure API authentication system
-├── book-notes/                  # Digital book note-taking app
-├── dbank/                       # Banking application demo
-├── dkeeper/                     # Digital data keeper application
-├── drum-kit/                    # Interactive musical drum kit
-├── joke-generator/              # Random joke generator
-├── jokeAPI-express/             # Express.js joke API server
-├── logistics-demo/              # Logistics management system
-├── repo-vista/                  # Repository visualization tool
-├── secret-auth-app/             # Advanced secure authentication
-├── simple-portfolio/            # Clean portfolio website template
-├── tindog/                      # Dog matching application
-├── workout-generator/           # Personalized fitness generator
-└── README.md                    # This file
+├── 🔐 Authentication/
+│   ├── api-authentication/      # JWT-based API authentication
+│   └── secret-auth-app/         # Advanced OAuth authentication
+├── 🎮 Interactive/
+│   ├── drum-kit/                # Virtual drum kit with audio
+│   ├── workout-generator/       # Fitness routine generator
+│   └── tindog/                  # Dog matching application
+├── 📊 Data Management/
+│   ├── dbank/                   # Banking simulation
+│   ├── book-notes/              # Digital library system
+│   ├── dkeeper/                 # Data organisation tool
+│   └── repo-vista/              # Repository analytics
+├── 🚀 API Development/
+│   ├── jokeAPI-express/         # Express.js joke API
+│   └── joke-generator/          # Frontend joke generator
+├── 💼 Templates/
+│   ├── simple-portfolio/        # Portfolio template
+│   └── logistics-demo/          # Logistics dashboard
+├── 📚 Documentation/
+│   ├── README.md               # This file
+│   ├── CONTRIBUTING.md         # Contribution guidelines
+│   ├── CODE_OF_CONDUCT.md      # Code of conduct
+│   └── CHANGELOG.md            # Version history
+└── 🧪 Tests/
+    └── test-configs/           # Testing configurations
 ```
 
-## 💻 Installation
+---
 
-### Individual Project Setup
+## 🔧 Installation
 
-Each project contains its own `README.md` with specific installation instructions. Generally, follow these steps:
+### Environment Setup
 
-1. Navigate to the project directory
-2. Install dependencies: `npm install`
-3. Configure environment variables (if applicable)
-4. Start the development server: `npm start`
-
-### Environment Configuration
-
-Many projects require environment variables. Create a `.env` file in the project root:
+Create a `.env` file in project directories that require it:
 
 ```env
-# Database
-DB_CONNECTION_STRING=mongodb://localhost:27017/devvault
+# Database Configuration
 DB_HOST=localhost
 DB_PORT=5432
+DB_NAME=devvault
+DB_USER=your_username
+DB_PASS=your_password
 
 # Authentication
-JWT_SECRET=your-secret-key
-OAUTH_CLIENT_ID=your-oauth-client-id
+JWT_SECRET=your-super-secret-jwt-key
+SESSION_SECRET=your-session-secret
 
 # API Keys
-API_KEY=your-api-key
+GOOGLE_CLIENT_ID=your-google-client-id
+GITHUB_CLIENT_ID=your-github-client-id
+
+# Application
+PORT=3000
+NODE_ENV=development
 ```
 
-## 🎮 Usage
+### Docker Setup (Optional)
 
-### 🎮 Development Workflow
+For containerised development:
 
-1. **🔍 Browse Projects**: Explore the different categories to find relevant examples
-   - `#frontend` `#backend` `#fullstack` `#interactive`
-2. **📋 Copy & Customize**: Use projects as starting points for your own development
-   - `#templates` `#boilerplates` `#starters`
-3. **📚 Learn & Implement**: Study the code patterns and best practices
-   - `#learning` `#patterns` `#best-practices`
-4. **🤝 Contribute Back**: Share improvements and new projects
-   - `#open-source` `#collaboration` `#community`
+```bash
+# Build and run with Docker
+docker-compose up --build
 
-### 💻 Code Examples
-
-#### 🎨 Frontend Component Example
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
-```jsx
-import React, { useState } from 'react';
-
-const ExampleComponent = () => {
-  const [state, setState] = useState('');
-  
-  return (
-    <div className="example-component">
-      <h2>🚀 DevVault Component</h2>
-      <input 
-        value={state} 
-        onChange={(e) => setState(e.target.value)}
-        placeholder="Enter text..."
-      />
-    </div>
-  );
-};
-
-export default ExampleComponent;
+# Or run individual services
+docker run -p 3000:3000 devvault-web
 ```
-`#react` `#hooks` `#components` `#frontend`
 
-#### ⚙️ Backend API Example
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white) ![Express](https://img.shields.io/badge/-Express-000000?style=flat&logo=express&logoColor=white)
+---
+
+## 📖 Usage
+
+### Development Workflow
+
+1. **Choose a project** based on your learning goals or requirements
+2. **Study the code structure** and implementation patterns
+3. **Run the project locally** to understand functionality
+4. **Customise and extend** for your specific needs
+5. **Contribute improvements** back to the community
+
+### Code Examples
+
+**Frontend Component Pattern:**
 ```javascript
+// Modern JavaScript component structure
+class InteractiveComponent {
+  constructor(selector) {
+    this.element = document.querySelector(selector);
+    this.init();
+  }
+  
+  init() {
+    this.bindEvents();
+    this.render();
+  }
+  
+  bindEvents() {
+    this.element.addEventListener('click', this.handleClick.bind(this));
+  }
+  
+  handleClick(event) {
+    // Handle user interaction
+  }
+  
+  render() {
+    // Update UI
+  }
+}
+```
+
+**Backend API Pattern:**
+```javascript
+// Express.js route with error handling
 const express = require('express');
-const app = express();
+const router = express.Router();
 
-app.use(express.json());
-
-app.get('/api/health', (req, res) => {
-  res.json({ 
-    status: '✅ OK', 
-    message: '🚀 DevVault API is running' 
-  });
+router.get('/api/data', async (req, res, next) => {
+  try {
+    const data = await dataService.getData();
+    res.json({ success: true, data });
+  } catch (error) {
+    next(error);
+  }
 });
 
-app.listen(3000, () => {
-  console.log('🌐 Server running on port 3000');
-});
+module.exports = router;
 ```
-`#express` `#nodejs` `#api` `#backend`
 
-#### 🐍 Python Backend Example
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![Flask](https://img.shields.io/badge/-Flask-000000?style=flat&logo=flask&logoColor=white)
-```python
-from flask import Flask, jsonify
+---
 
-app = Flask(__name__)
+## 🧪 Testing
 
-@app.route('/api/health')
-def health_check():
-    return jsonify({
-        'status': '✅ OK',
-        'message': '🐍 DevVault Python API is running'
-    })
+### Running Tests
 
-if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+```bash
+# Install testing dependencies
+npm install --save-dev jest supertest
+
+# Run all tests
+npm test
+
+# Run tests with coverage
+npm run test:coverage
+
+# Run tests in watch mode
+npm run test:watch
 ```
-`#flask` `#python` `#api` `#backend`
+
+### Testing Guidelines
+
+- Write unit tests for utility functions
+- Integration tests for API endpoints
+- End-to-end tests for critical user flows
+- Maintain minimum 80% code coverage
+
+---
+
+## 📚 Documentation
+
+### Additional Resources
+
+| Resource | Description | Link |
+|----------|-------------|------|
+| **API Documentation** | Detailed API endpoint documentation | [/docs/api](docs/api) |
+| **Style Guide** | Coding standards and conventions | [/docs/style-guide](docs/style-guide) |
+| **Deployment Guide** | Production deployment instructions | [/docs/deployment](docs/deployment) |
+| **Architecture Overview** | System design and architecture | [/docs/architecture](docs/architecture) |
+
+### Learning Resources
+
+- **📖 [MDN Web Docs](https://developer.mozilla.org/)** - Web standards reference
+- **🎓 [freeCodeCamp](https://www.freecodecamp.org/)** - Free coding curriculum
+- **📚 [JavaScript.info](https://javascript.info/)** - Modern JavaScript tutorial
+- **🔧 [Node.js Docs](https://nodejs.org/docs/)** - Official Node.js documentation
+
+---
 
 ## 🤝 Contributing
 
-We welcome contributions to DevVault! Here's how you can help:
+We welcome contributions from developers of all skill levels! Here's how you can help:
 
-### How to Contribute
+### Quick Contribution Guide
 
-1. **Fork the repository**
-2. **Create a feature branch**: `git checkout -b feature/amazing-feature`
-3. **Make your changes** and ensure they follow our coding standards
-4. **Test thoroughly** - make sure everything works as expected
-5. **Commit your changes**: `git commit -m 'Add amazing feature'`
-6. **Push to the branch**: `git push origin feature/amazing-feature`
-7. **Open a Pull Request**
+1. **🍴 Fork** the repository
+2. **🌿 Create** a feature branch: `git checkout -b feature/amazing-feature`
+3. **✅ Make** your changes following our coding standards
+4. **🧪 Test** your changes thoroughly
+5. **📝 Commit** with clear messages: `git commit -m 'Add amazing feature'`
+6. **🚀 Push** to your branch: `git push origin feature/amazing-feature`
+7. **📮 Submit** a Pull Request
 
-### Contribution Guidelines
+### Contribution Types
+
+- 🐛 **Bug fixes** - Help us squash those pesky bugs
+- ✨ **New features** - Add exciting new functionality
+- 📚 **Documentation** - Improve our docs and guides
+- 🎨 **UI/UX improvements** - Make things look and feel better
+- 🧪 **Tests** - Help us maintain quality with better test coverage
+- 🔧 **Refactoring** - Clean up and optimise existing code
+
+### Development Standards
 
 - Follow existing code style and conventions
-- Include comprehensive documentation
-- Add tests for new functionality
-- Update README files when necessary
-- Ensure all projects have clear installation instructions
+- Write clear, descriptive commit messages
+- Include tests for new functionality
+- Update documentation when necessary
+- Ensure responsive design for UI changes
 
-### Code of Conduct
+---
 
-Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing.
+## 🔄 Changelog
 
-## 📚 Resources
+### Version 2.1.0 (Latest)
+- ✨ Added new authentication projects
+- 🔧 Improved project structure organisation
+- 📚 Enhanced documentation with better examples
+- 🐛 Fixed responsive design issues in portfolio template
 
-### 📚 Learning Materials
-- **📖 [MDN Web Docs](https://developer.mozilla.org/)** - Comprehensive web development documentation
-  - `#documentation` `#web-standards` `#reference`
-- **🎓 [freeCodeCamp](https://www.freecodecamp.org/)** - Free coding tutorials and projects
-  - `#tutorials` `#free-learning` `#projects`
-- **📚 [JavaScript.info](https://javascript.info/)** - Modern JavaScript tutorial
-  - `#javascript` `#modern-js` `#tutorials`
+### Version 2.0.0
+- 🚀 Complete repository restructure
+- ✨ Added Python integration projects
+- 🔒 Enhanced security implementations
+- 📊 Added data visualisation components
 
-### 🛠 Tools & Libraries
-- **💻 [VS Code](https://code.visualstudio.com/)** - Recommended code editor
-  - `#editor` `#development` `#tools`
-- **🧪 [Postman](https://www.postman.com/)** - API testing tool
-  - `#api-testing` `#development` `#tools`
-- **🔧 [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)** - Browser debugging
-  - `#debugging` `#browser-tools` `#development`
+[View Full Changelog](CHANGELOG.md)
 
-### 🌍 Communities
-- **❓ [Stack Overflow](https://stackoverflow.com/)** - Programming Q&A
-  - `#community` `#help` `#programming`
-- **✍️ [Dev.to](https://dev.to/)** - Developer community and articles
-  - `#community` `#articles` `#developers`
-- **💬 [Reddit r/webdev](https://www.reddit.com/r/webdev/)** - Web development discussions
-  - `#community` `#discussions` `#webdev` Code](https://code.visualstudio.com/) - Recommended code editor
-- [Postman](https://www.postman.com/) - API testing tool
-- [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - Browser debugging
+---
 
-### Communities
-- [Stack Overflow](https://stackoverflow.com/) - Programming Q&A
-- [Dev.to](https://dev.to/) - Developer community and articles
-- [Reddit r/webdev](https://www.reddit.com/r/webdev/) - Web development discussions
+## ❓ FAQ
 
-## 📄 License
+<details>
+<summary><strong>How do I get started with DevVault?</strong></summary>
 
-![License](https://img.shields.io/badge/License-MIT-brightgreen?style=flat&logo=opensourceinitiative&logoColor=white)
+1. Clone the repository
+2. Choose a project that matches your skill level
+3. Follow the installation instructions in the project's README
+4. Start experimenting and learning!
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-- `#open-source` `#mit-license` `#free-software`
+</details>
 
-## 📞 Contact
+<details>
+<summary><strong>Can I use these projects commercially?</strong></summary>
+
+Yes! All projects are under MIT license, allowing commercial use with attribution.
+
+</details>
+
+<details>
+<summary><strong>How do I contribute a new project?</strong></summary>
+
+1. Fork the repository
+2. Create your project following our structure guidelines
+3. Include comprehensive documentation
+4. Submit a pull request with your project
+
+</details>
+
+<details>
+<summary><strong>What skill level is required?</strong></summary>
+
+Projects range from beginner to advanced. Each project includes difficulty indicators and prerequisites.
+
+</details>
+
+---
+
+## 📞 Support
 
 <div align="center">
 
-![Profile](https://img.shields.io/badge/Developer-Qusai%20Kagal-blue?style=flat&logo=github&logoColor=white)
+### Get Help & Connect
 
-- **👨‍💻 Author**: Qusai Kagal
+[![GitHub Issues](https://img.shields.io/badge/Issues-GitHub-red?style=for-the-badge&logo=github)](https://github.com/qusai-Kagal/DevVault/issues)
+[![Discussions](https://img.shields.io/badge/Discussions-GitHub-blue?style=for-the-badge&logo=github)](https://github.com/qusai-Kagal/DevVault/discussions)
+[![Wiki](https://img.shields.io/badge/Wiki-Documentation-green?style=for-the-badge&logo=wikipedia)](https://github.com/qusai-Kagal/DevVault/wiki)
+
+### Contact Information
+
+- **👨‍💻 Developer**: Qusai Kagal
+- **📧 Email**: [Create an Issue](https://github.com/qusai-Kagal/DevVault/issues/new)
 - **🐙 GitHub**: [@qusai-Kagal](https://github.com/qusai-Kagal)
-- **📂 Repository**: [DevVault](https://github.com/qusai-Kagal/DevVault)
-- **🌐 Portfolio**: [Visit My Work](https://github.com/qusai-Kagal/DevVault/tree/main/web-development/simple-portfolio)
+- **💼 Portfolio**: [View Projects](https://github.com/qusai-Kagal/DevVault/tree/main/web-development/simple-portfolio)
 
-[![GitHub followers](https://img.shields.io/github/followers/qusai-Kagal?style=social)](https://github.com/qusai-Kagal)
-[![GitHub stars](https://img.shields.io/github/stars/qusai-Kagal/DevVault?style=social)](https://github.com/qusai-Kagal/DevVault)
+</div>
+
+---
+
+## 📄 License
+
+<div align="center">
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge&logo=opensourceinitiative)](LICENSE)
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+**You are free to:**
+- ✅ Use commercially
+- ✅ Modify and distribute
+- ✅ Use privately
+- ✅ Sublicense
+
+**Under the condition:**
+- 📝 Include license and copyright notice
 
 </div>
 
@@ -438,10 +642,23 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**⭐ If you find this repository helpful, please consider giving it a star!**
+### 🌟 Show Your Support
 
-![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red?style=flat)
-![Open Source](https://img.shields.io/badge/Open%20Source-💙-blue?style=flat)
-![Community](https://img.shields.io/badge/Community-🤝-green?style=flat)
+**If DevVault helps you in your development journey, please consider:**
+
+[![Star this repo](https://img.shields.io/badge/⭐-Star%20this%20repo-yellow?style=for-the-badge)](https://github.com/qusai-Kagal/DevVault)
+[![Fork this repo](https://img.shields.io/badge/🍴-Fork%20this%20repo-blue?style=for-the-badge)](https://github.com/qusai-Kagal/DevVault/fork)
+[![Share on Twitter](https://img.shields.io/badge/🐦-Share%20on%20Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/intent/tweet?text=Check%20out%20DevVault%20-%20A%20comprehensive%20web%20development%20toolkit!&url=https://github.com/qusai-Kagal/DevVault)
+
+### Made with ❤️ by the DevVault Community
+
+![Built with Love](https://img.shields.io/badge/Built%20with-❤️-red?style=flat-square)
+![Open Source](https://img.shields.io/badge/Open%20Source-💙-blue?style=flat-square)
+![Community Driven](https://img.shields.io/badge/Community-🤝-green?style=flat-square)
+![Always Learning](https://img.shields.io/badge/Always-📚%20Learning-orange?style=flat-square)
+
+---
+
+**"Code is like humor. When you have to explain it, it's bad." - Cory House**
 
 </div>
