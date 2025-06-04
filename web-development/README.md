@@ -9,7 +9,7 @@
 
 **A comprehensive full-stack web development portfolio showcasing modern authentication systems, interactive applications, and production-ready solutions**
 
-[📋 View Projects](#-featured-projects) • [🛠 Tech Stack](#-technology-stack) • [🚀 Live Demos](#-live-demos) • [📞 Contact](#-contact)
+[📋 View Projects](#-featured-projects) • [🛠 Tech Stack](#-technology-stack) • [📁 Repository](#-project-repository) • [📚 Documentation](#-documentation)
 
 </div>
 
@@ -269,16 +269,23 @@ As a passionate **Full-Stack Web Developer**, this repository represents my jour
 
 ---
 
-## 🔥 Live Demos
+## 📁 Project Repository
 
-| Project | Category | Tech Stack | Live Demo | Code |
-|---------|----------|------------|-----------|------|
-| **Secret Auth App** | 🔐 Authentication | Node.js + PostgreSQL | [View Live](#) | [Source](./secret-auth-app) |
-| **DBank** | 🚀 Blockchain | React + Motoko | [View Live](#) | [Source](./dbank) |
-| **Drum Kit** | 🎮 Interactive | HTML5 + Web Audio | [View Live](#) | [Source](./drum-kit) |
-| **Workout Generator** | 🏋️ AI/ML | Python + Streamlit | [View Live](#) | [Source](./workout-generator) |
-| **Repo Vista** | 📊 Data Viz | React + GitHub API | [View Live](#) | [Source](./repo-vista) |
-| **JokeAPI Express** | 🌐 Backend | Node.js + Express | [API Docs](#) | [Source](./jokeAPI-express) |
+| Project | Category | Tech Stack | Source Code |
+|---------|----------|------------|-------------|
+| **Secret Auth App** | 🔐 Authentication | Node.js + PostgreSQL | [Source](./secret-auth-app) |
+| **DBank** | 🚀 Blockchain | React + Motoko | [Source](./dbank) |
+| **Drum Kit** | 🎮 Interactive | HTML5 + Web Audio | [Source](./drum-kit) |
+| **Workout Generator** | 🏋️ AI/ML | Python + Streamlit | [Source](./workout-generator) |
+| **Repo Vista** | 📊 Data Viz | React + GitHub API | [Source](./repo-vista) |
+| **JokeAPI Express** | 🌐 Backend | Node.js + Express | [Source](./jokeAPI-express) |
+| **Book Notes** | 📚 Full-Stack | Node.js + PostgreSQL | [Source](./book-notes) |
+| **DKeeper** | 📝 Blockchain | React + Motoko | [Source](./dkeeper) |
+| **Joke Generator** | 🎭 Frontend | Node.js + Express | [Source](./joke-generator) |
+| **Logistics Demo** | 🚚 Business | HTML5 + CSS3 | [Source](./logistics-demo) |
+| **Simple Portfolio** | 💼 Template | HTML5 + CSS3 | [Source](./simple-portfolio) |
+| **Tindog** | 🐶 Landing Page | Bootstrap + HTML5 | [Source](./tindog) |
+| **API Authentication** | 🔑 Backend | Node.js + JWT | [Source](./api-authentication) |
 
 ---
 
@@ -562,19 +569,18 @@ Feel free to use this code for learning, inspiration, or as a starting point for
 
 <div align="center">
 
-### 🌟 **Hire Me for Your Next Project** 🌟
+### 🌟 **Professional Web Development Portfolio** 🌟
 
-**Full-Stack Web Developer | Blockchain Enthusiast | Problem Solver**
+**Full-Stack Developer | Modern Web Technologies | Problem Solver**
 
-[![Hire Me](https://img.shields.io/badge/Available_for_Hire-YES-success?style=for-the-badge&logo=handshake&logoColor=white)](#contact)
-[![Experience](https://img.shields.io/badge/Experience-Full_Stack-blue?style=for-the-badge&logo=code&logoColor=white)](#)
-[![Expertise](https://img.shields.io/badge/Expertise-Modern_Web_Tech-purple?style=for-the-badge&logo=react&logoColor=white)](#)
+[![GitHub](https://img.shields.io/badge/GitHub-qusai--Kagal-black?style=for-the-badge&logo=github)](https://github.com/qusai-Kagal)
+[![Portfolio](https://img.shields.io/badge/Portfolio-DevVault-blue?style=for-the-badge&logo=code&logoColor=white)](https://github.com/qusai-Kagal/DevVault)
 
 ---
 
-**"Code is poetry written in logic"**
+**"Building the future, one line of code at a time"**
 
-*Built with ❤️ by Qusai Kagal*
+*Developed with ❤️ by Qusai Kagal*
 
 [![Stars](https://img.shields.io/github/stars/qusai-Kagal/DevVault?style=social)](https://github.com/qusai-Kagal/DevVault/stargazers)
 [![Follow](https://img.shields.io/github/followers/qusai-Kagal?style=social)](https://github.com/qusai-Kagal)
