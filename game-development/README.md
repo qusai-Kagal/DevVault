@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen?style=for-the-badge)](https://github.com/qusai-Kagalwala/DevVault)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Game_Development-brightgreen?style=for-the-badge)](https://github.com/qusai-Kagalwala/DevVault)
 [![Games](https://img.shields.io/badge/Games-17-blue?style=for-the-badge)](https://github.com/qusai-Kagalwala/DevVault/tree/main/game-development)
 [![Python](https://img.shields.io/badge/Python-3.6+-yellow?style=for-the-badge&logo=python)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-red?style=for-the-badge)](LICENSE)
