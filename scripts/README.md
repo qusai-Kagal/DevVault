@@ -54,7 +54,7 @@ This portfolio encompasses **15+ Python scripts** covering automation, security,
 ![CLI](https://img.shields.io/badge/CLI-Development-blue?style=flat-square)
 
 ### **Security & Encryption**
-![Cryptography](https://img.shields.io/badge/Cryptography-FF6B6B?style=flat-square&logo=lock&logoColor=white)
+![Cryptography](https://img.shields.io/badge/Cryptography-FF6B6B?style=flat-square&logo=shieldcheck&logoColor=white)
 ![Hashing](https://img.shields.io/badge/Hashing-4ECDC4?style=flat-square)
 ![Password](https://img.shields.io/badge/Password_Security-45B7D1?style=flat-square)
 
