@@ -71,7 +71,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 👨‍💻 Author
-- Your Name - [GitHub Profile](https://github.com/qusai-Kagal)
+- Qusai Kagalwala - [GitHub Profile](https://github.com/qusai-Kagal)
 
 ---
 
