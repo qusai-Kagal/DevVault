@@ -2,6 +2,8 @@
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
 ![Turtle](https://img.shields.io/badge/Graphics-Turtle-green.svg)
+![Game Development](https://img.shields.io/badge/Game_Development-Arcade-orange.svg)
+![100 Days of Code](https://img.shields.io/badge/100_Days_of_Code-Day_21--22-purple.svg)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
