@@ -1,0 +1,151 @@
+# Professional Code Commenting & Documentation Style Prompt
+
+Use this prompt when you want to transform basic code into professionally documented, well-structured code with comprehensive comments following industry best practices.
+
+## Core Prompt
+
+```
+Please enhance this code file with professional-level commenting and documentation following these specific requirements:
+
+### 1. FILE HEADER STRUCTURE
+```python
+# =============================================================================
+# [Project Name/Course Reference] - [File Purpose]
+# [Brief description of what this file handles]
+# =============================================================================
+```
+
+### 2. CONSTANTS SECTION
+- Add a dedicated constants section at the top after imports
+- Use descriptive UPPER_CASE names
+- Group related constants together
+- Add comments explaining the purpose of each constant group
+
+```python
+# =============================================================================
+# [CATEGORY] CONSTANTS (ADDED/ENHANCED: Brief explanation)
+# =============================================================================
+CONSTANT_NAME = value  # Optional inline comment
+```
+
+### 3. CLASS/FUNCTION DOCUMENTATION
+- Use triple-quote docstrings for all classes and methods
+- Include ORIGINAL vs ENHANCED comparisons when applicable
+- Specify what changed and why
+- Use this format:
+
+```python
+class ClassName:
+    """
+    ENHANCED/ORIGINAL [Class name] that [purpose]
+    Inherits from [parent class] for [reason]
+
+    ORIGINAL VERSION: [what it did originally]
+    ENHANCED VERSION: [what improvements were made]
+    """
+
+    def method_name(self):
+        """
+        [Method description]
+        ENHANCEMENT/ORIGINAL: [explanation of changes if any]
+
+        Args: [if applicable]
+        Returns: [if applicable]
+        """
+```
+
+### 4. INLINE COMMENTING STYLE
+- Use `# ADDED:` for completely new functionality
+- Use `# ENHANCED:` for improved existing functionality  
+- Use `# ORIGINAL:` when preserving original logic
+- Use `# FIXED:` when correcting bugs or issues
+- Add `# TODO:` for future improvements
+- Use `# PERFORMANCE:` for optimization notes
+
+### 5. CODE SECTION DIVIDERS
+Use this pattern to separate major sections:
+```python
+# =============================================================================
+# SECTION NAME (PURPOSE/STATUS)
+# =============================================================================
+```
+
+### 6. COMPARISON BLOCKS
+At the end of files, include a comprehensive comparison:
+```python
+# =============================================================================
+# CHANGES MADE TO ORIGINAL CODE:
+#
+# ORIGINAL CODE ISSUES:
+# 1. ❌ [Issue description]
+# 2. ❌ [Another issue]
+#
+# ENHANCED VERSION IMPROVEMENTS:
+# 1. ✅ [Improvement description]
+# 2. ✅ [Another improvement]
+#
+# CORE FUNCTIONALITY PRESERVED:
+# - [What remained unchanged]
+# - [Original logic maintained]
+#
+# NEW FUNCTIONALITY ADDED:
+# - [New feature 1]
+# - [New feature 2]
+# =============================================================================
+```
+
+### 7. SPECIFIC REQUIREMENTS
+- **Preserve Original Logic**: Always maintain the core functionality
+- **Professional Terminology**: Use industry-standard terms
+- **Explain WHY, not just WHAT**: Include reasoning behind changes
+- **Performance Notes**: Highlight any optimization improvements
+- **Error Prevention**: Document any bug fixes or safety improvements
+- **Constants Over Magic Numbers**: Replace all hardcoded values
+- **Modular Approach**: Document separation of concerns
+
+### 8. COMMENTING DENSITY
+- Header comment for every major section
+- Docstring for every class and method  
+- Inline comments for complex logic
+- Explanatory comments for non-obvious code
+- Performance and optimization notes
+- TODO comments for future improvements
+
+### 9. FORMATTING STANDARDS
+- Use consistent indentation in comments
+- Align related comments vertically when possible
+- Use emojis sparingly (only for status: ✅❌🏆)
+- Keep line length reasonable (under 80-100 chars)
+- Use proper spacing around comment blocks
+
+### 10. LEARNING-FOCUSED APPROACH
+- Reference original learning source when applicable
+- Explain concepts for educational value
+- Include "why this approach" explanations
+- Document best practices being demonstrated
+- Show progression from basic to professional code
+
+Transform the provided code to be production-ready with this comprehensive documentation style while maintaining all original functionality and adding professional improvements where appropriate.
+```
+
+## Example Usage
+
+**Input**: Basic Python class or function
+**Output**: Professionally documented code with:
+- Comprehensive header sections
+- Organized constants
+- Detailed docstrings
+- Inline explanatory comments
+- Performance optimization notes
+- Before/after comparison summary
+- Educational context and reasoning
+
+## Key Benefits
+
+- **Educational Value**: Clear explanation of improvements and reasoning
+- **Maintainability**: Well-organized constants and clear documentation  
+- **Professional Quality**: Industry-standard commenting practices
+- **Performance Awareness**: Highlighted optimizations and improvements
+- **Historical Context**: Preserved original logic with enhancement notes
+
+This style transforms basic functional code into professional, maintainable, and educational code that serves as both working software and learning material.
