@@ -169,7 +169,6 @@ This project teaches:
 
 - 🐍 **[Snake Game](../snake-game/)** - Classic arcade implementation
 - 🏓 **[Pong Game](../pong-game/)** - Two-player paddle game
-- 🎯 **[Breakout Game](../breakout-game/)** - Brick-breaking arcade game
 
 ## 📚 Resources & References
 
