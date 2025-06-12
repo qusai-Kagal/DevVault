@@ -10,8 +10,6 @@
 
 A classic **Frogger-inspired** road crossing game built with Python's turtle graphics module. Navigate your turtle safely across busy traffic lanes while avoiding cars and progressing through increasingly challenging levels!
 
-![Game Demo](https://via.placeholder.com/600x300/1a202c/ffffff?text=🐢+Turtle+Crossing+Game+🚗)
-
 ## 🎮 Game Overview
 
 This project demonstrates **object-oriented programming** principles, **game development fundamentals**, and **event-driven programming** using Python's built-in turtle graphics library.
